@@ -18,9 +18,16 @@ Anaconda is a free open-source distribution of Python and R programming language
 This link "https://www.anaconda.com/distribution/" takes us to the web to download it.
 ()()If you have any difficulties to install it, you could follow this guide "https://problemsolvingwithpython.com/01-Orientation/01.03-Installing-Anaconda-on-Windows/"
 
-## Tensorflow Library
+## TensorFlow Library
 1) We will open a new Terminal
 2) We will Create and activate a new virtual environment using the following command:
 ```
 conda create -n myenv python=3.6
+```
+```
+conda activate myenv
+```
+3) Finally we will install the TensorFlow packages
+```
+pip install tensorflow
 ```
